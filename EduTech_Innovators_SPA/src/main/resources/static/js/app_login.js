@@ -33,7 +33,7 @@ function login(){ //se sincronisa la conexion login
     .then(response => response.json()) // crear la variable que maneja la respuesta del objeto
     .then(data => { //
         if(data.result === "OK"){
-            sessionStorage.setItem("nombreUsuario", data.nombre);
+            sessionStorage.setItem("nombre", data.nombre);
             window.location.href = "/index.html";
         }else {
             alert("Acceso es denegado")

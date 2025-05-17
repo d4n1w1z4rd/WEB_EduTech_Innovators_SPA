@@ -1,4 +1,4 @@
-const nombre = sessionStorage.getItem("noombreUsuario");
+const nombre = sessionStorage.getItem("nombre");
     if(nombre){
         document.getElementById("mensaje").textContent = `Bienvenid@, ${nombre}`;
     }
