@@ -47,6 +47,13 @@ nav {
     text-decoration: underline;
 }
 
+.navbar button {
+    border-radius: 10px;
+    font-family: 'orbitron, sans-serif';
+    font-size: 23px;
+    background-color: #8bb3b3;
+}
+
 /* cart */
 
 .cart-icon{
