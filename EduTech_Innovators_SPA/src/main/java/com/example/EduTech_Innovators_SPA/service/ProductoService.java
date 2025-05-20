@@ -11,5 +11,8 @@ public class ProductoService {
     @Autowired
     private ProductoRepository productoRepository;
 
+    public List<Producto> geProductos(){
+         return productoRepository.obteneProductos();
+    }
     
 }
